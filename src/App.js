@@ -18,6 +18,7 @@ function App() {
   }, [index, people]);
 
   useEffect(()=> {
+    // to set auto-slider
     let slider = setInterval(()=> {
       setIndex(index + 1);
     }, 3000);
